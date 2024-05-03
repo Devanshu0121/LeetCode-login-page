@@ -1,0 +1,118 @@
+body{
+    background-color: wheat;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    text-decoration: underline rgba(59, 58, 58, 0.914);
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    margin-top: 32px;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+}
+header{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: white;
+}
+.head a{
+    border: 2px solid transparent;
+}
+.link2{
+    color: rgb(216, 81, 81);
+    background-color: rgba(231, 164, 164, 0.466);
+    border-radius: 11px;
+    margin-left: 250px ;
+}
+
+#LINK1:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#link123:hover{
+    background-color: rgba(246, 67, 67, 0.496);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.link1{
+    color: rgb(246, 67, 67);
+}
+.logo{
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+input{
+    height: 40px;
+    width: 85%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(79, 76, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+input[type="text"]:hover,input[type="password"]:hover{
+    background-color: wheat;
+}
+input[type="submit"]{
+    color: white;
+    background-color: rgba(46, 46, 72, 0.842);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    height: 43px;
+    width: 86%;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgba(7, 7, 117, 0.842);
+}
+.p1{
+    margin-top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.v123411{
+    color: rgb(78, 104, 169);
+    margin-right: 100px;
+}
+.v123412{
+    color: rgb(78, 104, 169);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 54px;
+    margin-top: 45px;
+}
+.p2{
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.l123{
+    font-size: medium;
+}
+.links{
+    margin-right: 50px;
+}
